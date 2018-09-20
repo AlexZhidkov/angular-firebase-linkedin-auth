@@ -1,6 +1,10 @@
 # ChrisDemo
+https://chris-students-demo.firebaseapp.com/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+
+[Use LinkedIn Sign In with Firebase](https://github.com/firebase/functions-samples/tree/master/linkedin-auth)
+Use 80x80 jpeg image for LinkedIn App to avoid getting error page.
 
 ## Development server
 
