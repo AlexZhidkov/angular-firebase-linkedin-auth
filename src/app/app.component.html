@@ -2,13 +2,12 @@
   <h1>
     Welcome to Students LinkedIn application demo!
   </h1>
-  <button on-click="login()">
+  <button on-click="loginWithLinkedIn()">
     <img src="./assets/Sign-In-Large---Default.png">
   </button>
 </div>
 <ul>
   <li class="text" *ngFor="let item of items | async">
     <pre>{{item|json}}</pre>
-    {{item.name}}
   </li>
 </ul>

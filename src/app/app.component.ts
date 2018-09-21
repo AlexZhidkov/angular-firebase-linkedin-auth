@@ -14,4 +14,9 @@ export class AppComponent {
   constructor(db: AngularFirestore) {
     this.items = db.collection('students').valueChanges();
   }
+
+  loginWithLinkedIn() {
+    // ToDo: log in with LinkedIn here and get the signed-In user information.
+    window.location.href = 'https://us-central1-chris-students-demo.cloudfunctions.net/redirect';
+  }
 }
