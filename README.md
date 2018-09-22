@@ -6,6 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 [Use LinkedIn Sign In with Firebase](https://github.com/firebase/functions-samples/tree/master/linkedin-auth)
 Use 80x80 jpeg image for LinkedIn App to avoid getting error page.
 
+[Authenticating with OAuth 2.0](https://developer.linkedin.com/docs/oauth2)
+[LinkedIn Best Practices for Secure Applications](https://developer.linkedin.com/docs/best-practices)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

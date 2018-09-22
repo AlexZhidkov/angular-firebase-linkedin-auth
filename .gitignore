@@ -9,6 +9,8 @@
 **/node_modules
 
 .firebase
+functions/service-account.json
+firebase-debug.log
 
 # IDEs and editors
 /.idea
