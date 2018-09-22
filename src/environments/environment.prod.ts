@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: 'AIzaSyCPuFbhWHSAHl13msMDY61ec4KKjTNiYlU',
-    authDomain: 'chris-students-demo.firebaseapp.com',
-    databaseURL: 'https://chris-students-demo.firebaseio.com',
-    projectId: 'chris-students-demo',
-    storageBucket: 'chris-students-demo.appspot.com',
-    messagingSenderId: '613535702828'
+    apiKey: 'AIzaSyA95WhzizydIETgGObk9SSrcv8A3P32x8o',
+    authDomain: 'internship-poc.firebaseapp.com',
+    databaseURL: 'https://internship-poc.firebaseio.com',
+    projectId: 'internship-poc',
+    storageBucket: 'internship-poc.appspot.com',
+    messagingSenderId: '288636088637'
   }
 };
