@@ -17,6 +17,6 @@ export class AppComponent {
 
   loginWithLinkedIn() {
     // ToDo: log in with LinkedIn here and get the signed-In user information.
-    window.location.href = 'https://us-central1-chris-students-demo.cloudfunctions.net/redirect';
+    window.location.href = 'https://us-central1-internship-poc.cloudfunctions.net/redirect';
   }
 }
