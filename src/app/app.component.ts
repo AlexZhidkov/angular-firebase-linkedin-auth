@@ -11,24 +11,22 @@ declare var IN: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  items: Observable<any[]>;
+  linkedinProfile: Observable<any[]>;
   title = 'ChrisDemo';
 
-  constructor( db: AngularFirestore ) {
-    this.items = db.collection('students').valueChanges();
+  constructor(db: AngularFirestore) {
+    // this.items = db.collection('students').valueChanges();
   }
 
   loginWithLinkedIn() {
-    // ToDo: log in with LinkedIn here and get the signed-In user information.
-    // window.location.href = 'https://us-central1-internship-poc.cloudfunctions.net/redirect';
     IN.User.authorize(() => this.onLoggedIN());
   }
 
   async onLoggedIN() {
     IN.API.Profile('me')
-      .fields('firstName', 'lastName', 'location', 'positions')
+      .fields('firstName', 'lastName', 'email-address', 'picture-url', 'location', 'positions')
       .result((profile) => {
-        this.items = of(profile.values);
+        this.linkedinProfile = of(profile.values);
       })
       .error((err) => {
         console.log(err);
